@@ -7,11 +7,11 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8703171624:AAEitrWlaMkZBfNp7SxHc-yId3PjzX1yhbI")
 ADMIN_ID = 325845619
 
-DECORS = {
-    "ec1007": {"name": "EC1007 Дуб Паркетный", "file": "decor_samples/EC1007.jpg"},
-    "ec1012": {"name": "EC1012 Дуб Метик", "file": "decor_samples/EC1012.jpg"},
-    "ec1055": {"name": "EC1055 Дуб Бардолино", "file": "decor_samples/EC1055.jpg"},
-    "ec1056": {"name": "EC1056 Дуб Бардолино 2", "file": "decor_samples/EC1056.jpg"},
+    DECORS = {
+    "ec1007": {"name": "EC1007 Дуб Паркетный", "file": "EC1007.jpg"},
+    "ec1012": {"name": "EC1012 Дуб Метик", "file": "EC1012.jpg"},
+    "ec1055": {"name": "EC1055 Дуб Бардолино", "file": "EC1055.jpg"},
+    "ec1056": {"name": "EC1056 Дуб Бардолино 2", "file": "EC1056.jpg"},
 }
 
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
